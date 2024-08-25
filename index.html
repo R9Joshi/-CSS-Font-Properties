@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Properties</title>
+  <style>
+    body {
+      background-color: cornflowerblue;
+      color: white;
+      font-size: 30px;
+    }
+    /* Don't change the CSS above, add Your CSS below */
+    #color{
+      color: coral;
+    }
+    #size{
+      font-size: 4rem;
+    }
+    #weight{
+      font-weight: 900;
+    }
+    #family{
+      font-family: 'Caveat', cursive;
+    }
+    #align{
+      text-align: right;
+    }
+    .container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: aqua;
+      height: 400px;
+      width: 600px;
+      
+    }
+    .box{
+      height: 200px;
+      width: 200px;
+      text-decoration: none;
+      font-family: cursive;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+
+    
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Important CSS Properties</h1>
+  <p id="color">Color</p>
+  <p id="size">Font Size</p>
+  <p id="weight">Font Weight</p>
+  <p id="family">Font Family</p>
+  <p id="align">Text Align</p>
+
+
+  <hr>
+  <div class="container">
+    <div class="box" style="background-color: rgb(26, 6, 100);"><a href="./font-family.html" style="color: whitesmoke;">Font Family</a></div>
+    <div class="box" style="background-color: rgb(105, 37, 168);"><a href="./font-size.html" style="color: whitesmoke;">Font Size</a></div>
+  </div>
+
+  <!-- TODOs
+  1. Change the color of <p>Color</p> to "coral" color.
+  2. Change the font size of <p>Font Size</p> to 2X the size of the root font size.
+  3. Change the font weight of <p>Font Weight</p> to 900.
+  4. Change the font family of <p>Font Family</p> to the Google font Caveat with regular (400) font weight.
+  Link: https://fonts.google.com/specimen/Caveat
+  5. Change the <p>Text Align</p> to right align.
+  6. Change the the root (html element) font size to 30px -->
+</body>
+
+</html>
